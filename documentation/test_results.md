@@ -44,7 +44,7 @@ PASS
 
 ## Screenshot
 
-simulide/screenshots/hello_test.png
+simulide/screenshots/HELLO_Test.png
 
 ---
 
@@ -77,7 +77,7 @@ PASS
 
 ## Screenshot
 
-simulide/screenshots/status_command.png
+simulide/screenshots/Status_Command.png
 
 ---
 
@@ -109,7 +109,7 @@ PASS
 
 ## Screenshot
 
-simulide/screenshots/sw1_test.png
+simulide/screenshots/SW3_Test.png
 
 ---
 
@@ -131,10 +131,6 @@ LED flashes briefly.
 ## Actual Result
 
 PASS
-
-## Screenshot
-
-simulide/screenshots/led_test.png
 
 ---
 
@@ -159,10 +155,6 @@ INVALID COMMAND
 ## Actual Result
 
 PASS
-
-## Screenshot
-
-simulide/screenshots/invalid_command.png
 
 ---
 
