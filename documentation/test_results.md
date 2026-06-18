@@ -77,7 +77,7 @@ PASS
 
 ## Screenshot
 
-simulide/screenshots/Status_Command.png
+simulide/screenshots/STATUS_Command.png
 
 ---
 
@@ -109,7 +109,7 @@ PASS
 
 ## Screenshot
 
-simulide/screenshots/SW3_Test.png
+simulide/screenshots/SW3_Pressed.png
 
 ---
 
