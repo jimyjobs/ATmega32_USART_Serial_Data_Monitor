@@ -1,9 +1,7 @@
 # ATmega32 USART Serial Data Monitoring System
 ## Pin Mapping Table
 
-**Project:** ATmega32_USART_Serial_Data_Monitor  
-**Course:** Microcontroller Systems  
-**Member 1:** Hardware & KiCad Engineer  
+**Project:** ATmega32_USART_Serial_Data_Monitor
 
 ---
 

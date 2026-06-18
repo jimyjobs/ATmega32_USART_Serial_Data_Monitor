@@ -29,6 +29,10 @@ void ProcessCommand(char *cmd)
 
         PORTB &= ~(1<<PB2);
     }
+    else if(strcmp(cmd, "HELLO") == 0)
+    {
+        USART_SendString("HELLO\r\n");
+    }
     else
     {
         USART_SendString("\r\nINVALID COMMAND\r\n");

@@ -6,22 +6,35 @@
 
 int main(void)
 {
-    char cmd[7];
-    int i;
+    char cmd[20];
+    char c;
+    int i = 0;
 
     USART_Init();
     GPIO_Init();
 
     while(1)
-    {
-        for(i = 0; i < 6; i++)
+    {        
+        c = USART_ReceiveChar();
+
+        if(c == '\r' || c == '\n')
         {
-            cmd[i] = USART_ReceiveChar();
+            cmd[i] = '\0';
+
+            if(i > 0)
+            {
+                ProcessCommand(cmd);
+            }
+
+            i = 0;
         }
-
-        cmd[6] = '\0';
-
-        ProcessCommand(cmd);
+        else
+        {
+            if(i < sizeof(cmd) - 1)
+            {
+                cmd[i++] = c;
+            }
+        }
     }
 
     return 0;
