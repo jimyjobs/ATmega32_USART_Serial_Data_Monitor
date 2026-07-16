@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -645,15 +645,15 @@
       {
         "filename": "ATmega32_USART_Serial_Data_Monitor_System_v001.kicad_sch",
         "name": "Root",
-        "uuid": "af7355e9-6ffe-419f-a861-3e6243a12321"
+        "uuid": "c7a5266c-72ab-42c5-b139-a9a95136974a"
       }
     ],
-    "used_designators": "#FLG1-2,R1-3,J1,D1-2,#PWR1-3,C1-4,SW1-3,U1,Y1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
-      "af7355e9-6ffe-419f-a861-3e6243a12321",
+      "c7a5266c-72ab-42c5-b139-a9a95136974a",
       "Root"
     ]
   ],
