@@ -6,5 +6,7 @@ void USART_SendChar(char data);
 void USART_SendString(const char *str);
 
 char USART_ReceiveChar(void);
+/* Returns non-zero when data is available */
+unsigned char USART_DataAvailable(void);
 
 #endif
